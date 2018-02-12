@@ -1,5 +1,5 @@
 rm(list=ls())     #clear workspace
-setwd("/Users/hshojaei/Documents/data/ElectricPowerConsumption")   # set working directory
+# setwd("/Users/hshojaei/Documents/data/ElectricPowerConsumption")   # set working directory
 
 # read the data
 electricity_data <- read.table("household_power_consumption.txt", sep = ';',header = TRUE, stringsAsFactors=FALSE)
